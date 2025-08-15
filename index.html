@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Dinero">
+    <meta name="description" content="Dinero">
+    <meta name="author" content="">
+
+    <!-- Title  -->
+    <title>Dinero's Code</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/imgs/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css"
+        integrity="sha512-58P9Hy7II0YeXLv+iFiLCv1rtLW47xmiRpC1oFafeKNShp8V5bKV/ciVtYqbk2YfxXQMt58DjNfkXFOn62xE+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Plugins -->
+    <link rel="stylesheet" href="./common/css/plugins.css">
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="./common/css/common_style.css">
+    <link rel="stylesheet" href="./assets/css/home11-style.css">
+    <link rel="stylesheet" href="./assets/css/home6-style.css">
+
+
+
+</head>
+
+<body>
+
+
+
+    <!-- ==================== Start Loading ==================== -->
+
+    <div class="loader-wrap">
+        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+            <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+        </svg>
+
+        <div class="loader-wrap-heading">
+            <div class="load-text">
+                <span>D</span>
+                <span>I</span>
+                <span>N</span>
+                <span>E</span>
+                <span>R</span> <br>
+                <span>C</span>
+                <span>O</span>
+                <span>D</span>
+                <span>E</span>
+                <span>.</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== End Loading ==================== -->
+
+
+    <div class="cursor"></div>
+
+
+    <!-- ==================== Start progress-scroll-button ==================== -->
+
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <!-- ==================== End progress-scroll-button ==================== -->
+
+
+
+    <!-- ==================== Start Navbar ==================== -->
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container" style="background: none;">
+
+            <!-- Logo -->
+            <a class="logo" href="./index.html">
+                <img src="assets/imgs/d-logo.png" alt="logo" style="width: 7rem; height: 3rem;">
+            </a>
+
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./faqs.html">FAQ's</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="topnav d-flex align-items-center">
+                <a href="./contact.html" class="butn butn-rounded">
+                    <div class="d-flex align-items-center">
+                        <span>Start Project</span>
+                        <span class="icon ml-10">
+                            <img src="./common/imgs/icons/arrow-top-right.svg" alt="">
+                        </span>
+                    </div>
+                </a>
+                <div class="menu-icon cursor-pointer">
+                    <span> <img src="./assets/imgs/menu_bar-removebg-preview.png" style="width: 3rem;" alt=""></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hamenu">
+        <div class="close-menu cursor-pointer ti-clos">
+            <img src="./assets/imgs/close-removebg-preview.png" alt="">
+        </div>
+        <div class="container-fluid rest d-flex">
+            <div class="menu-links">
+                <ul class="main-menu rest">
+                    <li>
+                        <div class="o-hidden">
+                            <div class="link cursor-pointer dmenu"><span class="fill-text" data-text="Home">Home</span>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="o-hidden">
+                            <div class="link cursor-pointer dmenu"><a href="./services.html"><span class="fill-text"
+                                        data-text="Services">Services</span></a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="o-hidden">
+                            <div class="link cursor-pointer dmenu"><a href="./portfolio.html"><span class="fill-text"
+                                        data-text="Projects">Projects</span></a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="o-hidden">
+                            <div class="link cursor-pointer dmenu"><a href="./faqs.html"><span class="fill-text"
+                                        data-text="FAQ">FAQ</span></a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="o-hidden">
+                            <a href="./contact.html" class="link"><span class="fill-text" data-text="Contact Us">Contact
+                                    Us</span></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="cont-info valign">
+                <div class="text-center full-width">
+                    <div class="logo">
+                        <img src="./assets/imgs/d-logo.png" alt="">
+                    </div>
+                    <div class="item mt-30">
+                        <h5>Lagos State, <br> Nigeria</h5>
+                    </div>
+                    <div class="item mt-10">
+                        <h5><a href="">ewiwilemvictor2001@gmail.com</a></h5>
+                        <h5 class="underline">
+                            <a
+                                href="https://wa.me/2348156671193?text=Hello%2C%20I%20came%20across%20your%20portfolio%20and%20I'm%20interested%20in%20your%20web%20development%20services.">
+                                +234 81 5667 1193
+                            </a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== End Navbar ==================== -->
+
+    <div id="smooth-wrapper">
+
+
+        <div id="smooth-content">
+
+            <main>
+
+
+
+                <!-- ==================== Start Header ==================== -->
+
+                <header class="header-ms bg-img" data-background="assets/imgs/header/bg.jpg" data-overlay-dark="4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <div class="caption mb-100">
+                                    <h1>I'm Victor <br> <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg"
+                                                width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M21 3V16.4751H19.5083V5.53591L4.0442 21L3 19.9061L18.4144 4.49171H7.47514V3H21Z"
+                                                    fill="#000"></path>
+                                            </svg></span> <span class="italic">A</span> Software <span
+                                            class="fw-200 underline">Developer</span></h1>
+                                    <p class="mt-30">I provide end-to-end software solutions,<br> from design to
+                                        development.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="award-box">
+                                    <div class="arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <path
+                                                d="M21 3V16.4751H19.5083V5.53591L4.0442 21L3 19.9061L18.4144 4.49171H7.47514V3H21Z"
+                                                fill="#000"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="img">
+                                        <img src="./assets/imgs/header/award.svg" alt="">
+                                    </div>
+                                    <h6>Digital <br> Winning agency</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="vid-box mb-40">
+                                    <video autoplay muted disablePictureInPicture controlsList="nodownload"
+                                        poster="https://uithemez.com/i/hubfolio_HTML/modern_business/assets/imgs/vid.jpg">
+                                        <source
+                                            src="https://uithemez.com/i/hubfolio_HTML/modern_business/assets/imgs/vid.mp4">
+                                    </video>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 offset-lg-1">
+                                <div class="feat row justify-content-between">
+                                    <div class="col-md-5">
+                                        <div class="item md-mb50">
+                                            <div class="icon-img-80 mb-30">
+                                                <img src="assets/imgs/header/icon-1.svg" alt="">
+                                            </div>
+                                            <h6 class="mb-15">Trending Features</h6>
+                                            <p>I integrate the latest web development trends to keep your projects
+                                                modern and user-focused.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="item">
+                                            <div class="icon-img-80 mb-30">
+                                                <img src="assets/imgs/header/icon-2.svg" alt="">
+                                            </div>
+                                            <h6 class="mb-15">Custom Projects</h6>
+                                            <p>I build fully customized web solutions tailored to your specific goals,
+                                                whether it's a business website, e-commerce platform & dashboard.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- ==================== End Header ==================== -->
+
+
+
+                <!-- ==================== Start Intro ==================== -->
+
+                <section class="hero-ms section-padding pb-0">
+                    <div class="container">
+                        <div class="row justify-content-center text-center mb-100">
+                            <div class="col-lg-11">
+                                <span class="sub-head mb-30">Who Is VICTOR!</span>
+                                <div class="text-center main-text">
+                                    <h2 style="text-align: left;">I'm a Full-Stack Web Developer and UI/UX Designer with
+                                        over 5 years of experience creating high-quality web applications and intuitive
+                                        user experiences. I specialize in building both the frontend and backend of
+                                        modern websites using technologies like HTML, advanced CSS, JavaScript, React,
+                                        and Python.
+                                        <span class="main-color">Digital Brand</span>.
+                                    </h2>
+                                    <div class="img1 fit-img" style="margin-left: -5rem;">
+                                        <img src="assets/imgs/my-pics.jpeg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-lg-7">
+                                <div class="qoutes d-flex">
+                                    <div>
+                                        <div class="icon-img-80">
+                                            <img src="../common/imgs/icons/quote-right-solid.svg" alt=""
+                                                class="full-width">
+                                        </div>
+                                    </div>
+                                    <div class="text ml-40">
+                                        <h4 class="fw-300">I’m passionate about design that solves real business
+                                            problems — whether it's crafting a visual identity or developing
+                                            full-featured interfaces. My work combines clean, efficient code with
+                                            user-focused design to deliver fast, accessible, and secure digital
+                                            products.
+                                        </h4>
+                                        <div class="mt-40 d-flex align-items-center">
+                                            <div>
+                                                <div class="img fit-img icon-img-90">
+                                                    <img src="assets/imgs/my-pics.jpeg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info ml-20">
+                                                <h6>Ewiwilem Victor Kuwekuzy</h6>
+                                                <span>Wed Developer & UI/UX Designer</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="mt-30">
+                                            <a href="./portfolio.html">
+                                                <button class="butn butn-md butn-bord butn-rounded">
+                                                    <div class="d-flex align-items-center">
+                                                        <span>Explore My Project</span>
+                                                        <span class="icon ml-10">
+                                                            <img src="./common/imgs/icons/arrow-top-right.svg" alt="">
+                                                        </span>
+                                                    </div>
+                                                </button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="exp">
+                                    <div class="text-right">
+                                        <h2>5+</h2>
+                                        <h6 class="text-u">Years <br> of Experience</h6>
+                                    </div>
+                                    <div class="icon icon-img-100">
+                                        <img src="assets/imgs/intro/4.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ==================== End Intro ==================== -->
+
+
+
+                <!-- ==================== Start Services ==================== -->
+
+                <section class="serv-ms bg-img" data-background="assets/imgs/services/serv-bg.jpg"
+                    data-overlay-dark="4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="item">
+                                    <div class="d-flex align-items-center">
+                                        <h6>Software <br> Development</h6>
+                                        <div class="ml-auto">
+                                            <a href="#0" class="arrow icon-img-40">
+                                                <img src="assets/imgs/services/arrow.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="text">
+                                        <p>Developing accessible and responsive websites and mobile applications.
+                                            Building software solutions with a focus on performance and scalability..
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="item">
+                                    <div class="d-flex align-items-center">
+                                        <h6>Web <br> Design</h6>
+                                        <div class="ml-auto">
+                                            <a href="#0" class="arrow icon-img-40">
+                                                <img src="assets/imgs/services/arrow.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="text">
+                                        <p>Our design services starts and ends with a best-in-class experience strategy
+                                            that builds brands. We create digital products materials.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="item">
+                                    <div class="d-flex align-items-center">
+                                        <h6>Consultancy <br> Services</h6>
+                                        <div class="ml-auto">
+                                            <a href="#0" class="arrow icon-img-40">
+                                                <img src="assets/imgs/services/arrow.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="text">
+                                        <p>Providing software development strategy and performance optimization
+                                            recommendations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ==================== End Services ==================== -->
+
+
+
+
+
+                <!-- ==================== Start Portfolio ==================== -->
+
+                <section class="work-card-ms section-padding">
+                    <div class="container">
+                        <div class="cards">
+                            <div class="sec-head-xlg card-item">
+                                <h6 class="sub-title">Our Portfolio</h6>
+                                <h2>Selected Works</h2>
+                            </div>
+                            <div class="row justify-content-end">
+                                <div class="col-lg-8">
+                                    <div class="card-item">
+                                        <div class="img fit-img">
+                                            <img src="assets/imgs/works/design-6.png" alt="">
+                                            <div class="cont d-flex align-items-center">
+                                                <div>
+                                                    <span class="tag">Wed Development</span>
+                                                    <h6>Datalookers</h6>
+                                                </div>
+                                                <div class="ml-auto">
+                                                    <a href="https://mirkospasovskii.wixsite.com/datalookers-2"
+                                                        class="arrow icon-img-40">
+                                                        <img src="assets/imgs/works/arrow.svg" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-item">
+                                        <div class="img fit-img">
+                                            <img src="./assets/imgs/works/united-pics .png" alt="">
+                                            <div class="cont d-flex align-items-center">
+                                                <div>
+                                                    <span class="tag">Web Development, Front-end & Back-end</span>
+                                                    <h6>United Health Org</h6>
+                                                </div>
+                                                <div class="ml-auto">
+                                                    <a href="https://unitedhealth-organization.surge.sh/"
+                                                        class="arrow icon-img-30">
+                                                        <img src="assets/imgs/works/arrow.svg" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-item">
+                                        <div class="img fit-img">
+                                            <img src="assets/imgs/blog/p.png" alt="">
+                                            <div class="cont d-flex align-items-center">
+                                                <div>
+                                                    <span class="tag">Web Development</span>
+                                                    <h6>Traveling Agency</h6>
+                                                </div>
+                                                <div class="ml-auto">
+                                                    <a href="https://traveling-agency.surge.sh/"
+                                                        class="arrow icon-img-40">
+                                                        <img src="assets/imgs/works/arrow.svg" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-item">
+                                        <div class="img fit-img">
+                                            <img src="./assets/imgs/blog/b1.png" alt="">
+                                            <div class="cont d-flex align-items-center">
+                                                <div>
+                                                    <span class="tag">Web Development</span>
+                                                    <h6>Dentaire Hospital Care</h6>
+                                                </div>
+                                                <div class="ml-auto">
+                                                    <a href="https://dentaire.surge.sh/" class="arrow icon-img-40">
+                                                        <img src="assets/imgs/works/arrow.svg" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ==================== End Portfolio ==================== -->
+
+
+
+                <div class="marq-mp ontop">
+                    <div class="main-marq gray-bg shadow-off">
+                        <div class="slide-har st1">
+                            <div class="box">
+                                <div class="item">
+                                    <h5>CSS <img src="./assets/imgs/brands/css-3.svg" alt="" style="width: 3rem;"></h5>
+                                </div>
+                                <div class="item">
+                                    <h5>Figma <img src="./assets/imgs/brands/figma-1.svg" alt="" style="width: 3rem;">
+                                    </h5>
+                                </div>
+                                <div class="item">
+                                    <h5>Git <img src="./assets/imgs/brands/git-icon.svg" alt="" style="width: 3rem;">
+                                    </h5>
+                                </div>
+                                <div class="item">
+                                    <h5>Github <img src="./assets/imgs/brands/GitHub-Logo.png" alt=""
+                                            style="width: 6rem;"></h5>
+                                </div>
+                                <div class="item">
+                                    <h5>HTML 5 <img src="./assets/imgs/brands/html-1.svg" alt="" style="width: 3rem;">
+                                    </h5>
+                                </div>
+                                <div class="item">
+                                    <h5>invision<img src="./assets/imgs/brands/invision.svg" alt=""
+                                            style="width: 3rem;"></h5>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="item">
+                                    <h5>JavaScript<img src="./assets/imgs/brands/logo-javascript.svg" alt=""
+                                            style="width: 3rem;"></h5>
+                                </div>
+                                <div class="item">
+                                    <h5>netlify <img src="./assets/imgs/brands/netlify.webp" alt=""
+                                            style="width: 3rem;"></h5>
+                                </div>
+                                <div class="item">
+                                    <h5>Sql <img src="./assets/imgs/brands/sql.png" alt="" style="width: 3rem;"></h5>
+                                </div>
+                                <div class="item">
+                                    <h5>php <img src="./assets/imgs/brands/php.png" alt="" style="width: 3rem;"></h5>
+                                </div>
+                                <div class="item">
+                                    <h5>python <img src="./assets/imgs/brands/python-logo.png" alt=""
+                                            style="width: 3rem;"></h5>
+                                </div>
+                                <div class="item">
+                                    <h5>react <img src="./assets/imgs/brands/react-2.svg" alt="" style="width: 3rem;">
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-marq color-bg shadow-off">
+                        <div class="slide-har st2">
+                            <div class="box">
+                                <div class="item">
+                                    <h5>CSS <img src="./assets/imgs/brands/css-3.svg" alt="" style="width: 3rem;"></h5>
+                                </div>
+                                <div class="item">
+                                    <h5>Figma <img src="./assets/imgs/brands/figma-1.svg" alt="" style="width: 3rem;">
+                                    </h5>
+                                </div>
+                                <div class="item">
+                                    <h5>Git <img src="./assets/imgs/brands/git-icon.svg" alt="" style="width: 3rem;">
+                                    </h5>
+                                </div>
+                                <div class="item">
+                                    <h5>Github <img src="./assets/imgs/brands/GitHub-Logo.png" alt=""
+                                            style="width: 6rem;"></h5>
+                                </div>
+                                <div class="item">
+                                    <h5>HTML 5 <img src="./assets/imgs/brands/html-1.svg" alt="" style="width: 3rem;">
+                                    </h5>
+                                </div>
+                                <div class="item">
+                                    <h5>invision<img src="./assets/imgs/brands/invision.svg" alt=""
+                                            style="width: 3rem;"></h5>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="item">
+                                    <h5>JavaScript<img src="./assets/imgs/brands/logo-javascript.svg" alt=""
+                                            style="width: 3rem;"></h5>
+                                </div>
+                                <div class="item">
+                                    <h5>netlify <img src="./assets/imgs/brands/netlify.webp" alt=""
+                                            style="width: 3rem;"></h5>
+                                </div>
+                                <div class="item">
+                                    <h5>Sql <img src="./assets/imgs/brands/sql.png" alt="" style="width: 3rem;"></h5>
+                                </div>
+                                <div class="item">
+                                    <h5>php <img src="./assets/imgs/brands/php.png" alt="" style="width: 3rem;"></h5>
+                                </div>
+                                <div class="item">
+                                    <h5>python <img src="./assets/imgs/brands/python-logo.png" alt=""
+                                            style="width: 3rem;"></h5>
+                                </div>
+                                <div class="item">
+                                    <h5>react <img src="./assets/imgs/brands/react-2.svg" alt="" style="width: 3rem;">
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- ==================== Start Services ==================== -->
+
+                <section class="services-ms section-padding" data-overlay-dark="0">
+                    <div class="container">
+                        <div class="sec-head text-center mb-70">
+                            <h6 class="sub-title main-color mb-15">What we offers</h6>
+                            <h3 class="text-u">Explore the services</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="item">
+                                    <div class="icon-img-50 mb-40">
+                                        <img src="assets/imgs/services/icon1.png" alt="">
+                                    </div>
+                                    <h6 class="mb-15">Software Development</h6>
+                                    <p class="fz-14">Developing accessible and responsive websites and mobile
+                                        applications. Building software solutions with a focus on performance and
+                                        scalability.</p>
+                                    <a href="./contact.html" class="arrow mt-30">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <path
+                                                d="M21 3V16.4751H19.5083V5.53591L4.0442 21L3 19.9061L18.4144 4.49171H7.47514V3H21Z"
+                                                fill="#fff"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="item">
+                                    <div class="icon-img-50 mb-40">
+                                        <img src="assets/imgs/services/icon2.png" alt="">
+                                    </div>
+                                    <h6 class="mb-15">UI/UX Design </h6>
+                                    <p class="fz-14">Conducting user research and usability testing to enhance user
+                                        experience, Creating wireframes, prototypes, and high-fidelity designs for
+                                        digital products.</p>
+                                    <a href="./contact.html" class="arrow mt-30">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <path
+                                                d="M21 3V16.4751H19.5083V5.53591L4.0442 21L3 19.9061L18.4144 4.49171H7.47514V3H21Z"
+                                                fill="#fff"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="item">
+                                    <div class="icon-img-50 mb-40">
+                                        <img src="assets/imgs/services/icon3.png" alt="">
+                                    </div>
+                                    <h6 class="mb-15">Branding</h6>
+                                    <p class="fz-14">Designing visually appealing logos, graphics and illustrations for
+                                        industries and marketing materials.</p>
+                                    <a href="./contact.html" class="arrow mt-30">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <path
+                                                d="M21 3V16.4751H19.5083V5.53591L4.0442 21L3 19.9061L18.4144 4.49171H7.47514V3H21Z"
+                                                fill="#fff"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="item">
+                                    <div class="icon-img-50 mb-40">
+                                        <img src="assets/imgs/services/icon4.png" alt="">
+                                    </div>
+                                    <h6 class="mb-15">Consultancy Services</h6>
+                                    <p class="fz-14">Providing software development strategy and performance
+                                        optimization recommendations.</p>
+                                    <a href="./contact.html" class="arrow mt-30">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <path
+                                                d="M21 3V16.4751H19.5083V5.53591L4.0442 21L3 19.9061L18.4144 4.49171H7.47514V3H21Z"
+                                                fill="#fff"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shape">
+                        <img src="assets/imgs/services/shape-circle.svg" alt="">
+                    </div>
+                </section>
+
+                <!-- ==================== End Services ==================== -->
+
+
+
+                <!-- ==================== Start Testimonials ==================== -->
+
+                <section class="testim-sm section-padding">
+                    <div class="container">
+                        <div class="sec-head text-center mb-100">
+                            <h6 class="sub-title main-color mb-15">Testimonials</h6>
+                            <h3 class="text-u">What Our Clients Say?</h3>
+                        </div>
+                        <div class="swiper testim-swiper swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="mb-70">
+                                            <div class="info d-flex align-items-center pt-30 mb-15">
+                                                <div class="info-text">
+                                                    <span>Mrs Angela</span>
+                                                    <p>Client, Branch Manager</p>
+                                                </div>
+                                            </div>
+                                            <h3>“Excellent</h3>
+                                        </div>
+                                        <div>
+                                            <div class="mt-15">
+                                                <h6 class="fz-16"> "Always available to help, incredibly proficient,
+                                                    hits deadlines without fail, hard working and trustworthy. In my
+                                                    experience,
+                                                    no project is too much trouble, and with Dinero you really get a
+                                                    rare entity –
+                                                    someone that can simplify what can be a very complex industry at
+                                                    times. I can recommend his services without hesitation."</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="mb-70">
+                                            <div class="info d-flex align-items-center pt-30 mb-15">
+                                                <div class="info-text">
+                                                    <span>Martin</span>
+                                                    <p>Client, Databox Officer</p>
+                                                </div>
+                                            </div>
+                                            <h3>“Excellent</h3>
+                                        </div>
+                                        <div>
+                                            <div class="mt-15">
+                                                <h6 class="fz-16">"Dinero has a keen eye for design, is a master of PHP
+                                                    & several other programming languages,
+                                                    and has a creative/artistic way about him that allows him to use all
+                                                    of his skills in synergy to bring a project full circle and at the
+                                                    right price."</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="mb-70">
+                                            <div class="info d-flex align-items-center pt-30 mb-15">
+                                                <div class="info-text">
+                                                    <span>Jack Enrest</span>
+                                                    <p>UI/UX developer, Client</p>
+                                                </div>
+                                            </div>
+                                            <h3>“Excellent</h3>
+                                        </div>
+                                        <div>
+                                            <div class="mt-15">
+                                                <h6 class="fz-16">"More recently he has built our secure database which
+                                                    is truly amazing and our life saver. He offers a reliable, fast,
+                                                    efficient service and we always have total confidence he can deliver
+                                                    whilst remaining human in a technical world we don’t really
+                                                    understand."</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="mb-70">
+                                            <div class="info d-flex align-items-center pt-30 mb-15">
+                                                <div class="info-text">
+                                                    <span>Sarah M. Eyinju</span>
+                                                    <p>Hospital Specialist, Worker</p>
+                                                </div>
+                                            </div>
+                                            <h3>“Excellent</h3>
+                                        </div>
+                                        <div>
+                                            <div class="mt-15">
+                                                <h6 class="fz-16">"Working with Dinero was an outstanding experience.
+                                                    From the very beginning, he demonstrated excellent communication,
+                                                    a strong understanding of our project goals, and a deep technical
+                                                    knowledge of web development. He delivered a clean, responsive,
+                                                    and user-friendly website that exceeded our expectations. The
+                                                    project was completed on time and within budget,
+                                                    and any revisions we requested were handled promptly and
+                                                    professionally. I would highly recommend Dinero to anyone looking
+                                                    for a reliable and talented web developer."</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="mb-70">
+                                            <div class="info d-flex align-items-center pt-30 mb-15">
+                                                <div class="info-text">
+                                                    <span>Bradley Gordon</span>
+                                                    <p>CEO & Founder, Archin Studio</p>
+                                                </div>
+                                            </div>
+                                            <h3>“Excellent</h3>
+                                        </div>
+                                        <div>
+                                            <div class="mt-15">
+                                                <h6 class="fz-16">A studio with passionate, professional and full
+                                                    creativity. Much more than i’m expect. Great services, high quality
+                                                    products & affordable prices. I’m extremly satisfied!.</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ==================== End Testimonials ==================== -->
+
+
+
+                <!-- ==================== Start Blog ==================== -->
+
+                <div class="blog-mp section-padding bg-gray">
+                    <div class="container">
+                        <div class="sec-head text-center mb-100">
+                            <h6 class="sub-title main-color mb-15">Our Latest</h6>
+                            <h3 class="text-u">On Going Project</h3>
+                        </div>
+                        <div class="row xlg-marg">
+                            <div class="col-lg-4 bord">
+                                <div class="item md-mb50">
+                                    <div class="info d-flex align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <div>
+                                                <div class="author-img fit-img">
+                                                    <img src="./assets/imgs/my-pics.jpeg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="author-info ml-10">
+                                                <span>Dinero</span>
+                                                <span class="sub-color">Creator/Web developer</span>
+                                            </div>
+                                        </div>
+                                        <div class="date ml-auto">
+                                            <span class="sub-color"><i class="fa-regular fa-clock mr-15 opacity-7"></i>
+                                                12 days
+                                                ago</span>
+                                        </div>
+                                    </div>
+                                    <div class="img fit-img mt-30">
+                                        <img src="assets/imgs/blog/b2.png" alt="">
+                                    </div>
+                                    <div class="cont mt-30">
+                                        <h6>
+                                            <a href="#" class="openImage" data-src="./assets/imgs/blog/b2.png">View
+                                                Project Highlight </a>
+                                            <a href="#" class="openImage" data-src="assets/imgs/blog/b2-1.png"></a>
+                                            <a href="#" class="openImage" data-src="assets/imgs/blog/b2-2.png"></a>
+                                            <a href="#" class="openImage" data-src="assets/imgs/blog/b2-3.png"></a>
+                                            <a href="#" class="openImage" data-src="assets/imgs/blog/b2-4.png"></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 bord">
+                                <div class="item md-mb50">
+                                    <div class="info d-flex align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <div>
+                                                <div class="author-img fit-img">
+                                                    <img src="./assets/imgs/my-pics.jpeg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="author-info ml-10">
+                                                <span>Dinero</span>
+                                                <span class="sub-color">Creator/Web developer</span>
+                                            </div>
+                                        </div>
+                                        <div class="date ml-auto">
+                                            <span class="sub-color"><i class="fa-regular fa-clock mr-15 opacity-7"></i>
+                                                a week
+                                                ago</span>
+                                        </div>
+                                    </div>
+                                    <div class="img fit-img mt-30">
+                                        <img src="assets/imgs/blog/b3.png" alt="">
+                                    </div>
+                                    <div class="cont mt-30">
+                                        <h6>
+                                            <a href="#" class="openImage" data-src="./assets/imgs/blog/b3.png">View
+                                                Project Highlight </a>
+                                            <a href="#" class="openImage" data-src="assets/imgs/blog/b3-1.png"></a>
+                                            <a href="#" class="openImage" data-src="assets/imgs/blog/b3-2.png"></a>
+                                            <a href="#" class="openImage" data-src="assets/imgs/blog/b3-3.png"></a>
+                                            <a href="#" class="openImage" data-src="assets/imgs/blog/b3-4.png"></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="item">
+                                    <div class="info d-flex align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <div>
+                                                <div class="author-img fit-img">
+                                                    <img src="./assets/imgs/my-pics.jpeg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="author-info ml-10">
+                                                <span>Dinero</span>
+                                                <span class="sub-color">Creator/Web developer</span>
+                                            </div>
+                                        </div>
+                                        <div class="date ml-auto">
+                                            <span class="sub-color"><i class="fa-regular fa-clock mr-15 opacity-7"></i>
+                                                a week ago
+                                                ago</span>
+                                        </div>
+                                    </div>
+                                    <div class="img fit-img mt-30">
+                                        <img src="assets/imgs/blog/b1.png" alt="">
+                                    </div>
+                                    <div class="cont mt-30">
+                                        <h6>
+                                            <a href="#" class="openImage" data-src="./assets/imgs/blog/b1.png">View
+                                                Project Highlight </a>
+                                            <a href="#" class="openImage" data-src="assets/imgs/blog/b1-1.png"></a>
+                                            <a href="#" class="openImage" data-src="assets/imgs/blog/b1-2.png"></a>
+                                            <a href="#" class="openImage" data-src="assets/imgs/blog/b1-3.png"></a>
+                                            <a href="#" class="openImage" data-src="assets/imgs/blog/b1-4.png"></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ==================== End Blog ==================== -->
+
+
+
+            </main>
+
+
+            <!-- ==================== Start Footer ==================== -->
+
+            <footer class="footer-sa pb-80">
+                <div class="container section-padding">
+                    <div class="sec-head mb-80">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <a href="#" class="logo md-mb50">
+                                    <img src="./assets/imgs/d-logo.png" alt="" style="width: 12rem; height: 6.4rem;">
+                                </a>
+                            </div>
+                            <div class="col-lg-6">
+                                <h4>We hope to empower user and simplify
+                                    <span class="sub-color inline">their everyday lives.</span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-info">
+                        <div class="row">
+                            <div class="col-lg-6 offset-lg-5">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="item">
+                                            <span class="sub-color">location</span>
+                                            <p>Lagos State, Nigeria</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 d-flex justify-content-end justify-end">
+                                        <div class="item">
+                                            <span class="sub-color">inquiry</span>
+                                            <p>ewiwilemvictor2001@gmail.com</p>
+                                            <p><a href="https://wa.me/2348156671193?text=Hello%2C%20I%20came%20across%20your%20portfolio%20and%20I'm%20interested%20in%20your%20web%20development%20services.">+234 815 667 1193</a></p>
+                                            <p>+234 901 533 6912</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 offset-lg-5">
+                                <div class="social-icon">
+                                    <a href="https://www.linkedin.com/in/ewiwilem-victor-kuwekuzy-02166924b?originalSubdomain=ng">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/dinero_vikky?igsh=MW1pbTJwbnMwdjJ3ZQ%3D%3D&utm_source=qr">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                    </a>
+                                    <a href="https://wa.me/2348156671193?text=Hello%2C%20I%20came%20across%20your%20portfolio%20and%20I'm%20interested%20in%20your%20web%20development%20services.">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                    </a>
+                                    <a href="https://github.com/dinerocodes/">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="copy sub-color md-mb30">
+                                    <p>© 2025 <a>Dinero's Code</a>. All Right Reserved</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-flex justify-content-end">
+                                <div class="links sub-color d-flex justify-content-between">
+                                    <a href="#" class="active">Home</a>
+                                    <a href="./services.html">Services</a>
+                                    <a href="./portfolio.html">Projects</a>
+                                    <a href="./faqs.html">FAQ</a>
+                                    <a href="./contact.html">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <!-- ==================== End Footer ==================== -->
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="./common/js/lib/jquery-3.6.0.min.js"></script>
+    <script src="./common/js/lib/jquery-migrate-3.4.0.min.js"></script>
+
+    <!-- plugins -->
+    <script src="./common/js/lib/plugins.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- GSAP -->
+    <script src="./common/js/gsap_lib/gsap.min.js"></script>
+    <script src="./common/js/gsap_lib/ScrollSmoother.min.js"></script>
+    <script src="./common/js/gsap_lib/ScrollTrigger.min.js"></script>
+    <script src="./common/js/gsap_lib/SplitText.min.js"></script>
+
+    <!-- common scripts -->
+    <script src="./common/js/common_scripts.js"></script>
+
+    <!-- custom scripts -->
+    <script src="./assets/js/scripts.js"></script>
+
+    <!-- Image Modal with Navigation -->
+    <div id="imageModal" class="image-modal">
+        <span class="image-close">&times;</span>
+        <img class="image-modal-content" id="modalImage">
+        <a class="image-prev">&#10094;</a>
+        <a class="image-next">&#10095;</a>
+    </div>
+
+    <style>
+        .image-modal {
+            display: none;
+            position: fixed;
+            z-index: 9999;
+            padding-top: 150px;
+            left: 0;
+            top: 0;
+            width: 90%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        .image-modal-content {
+            margin: auto;
+            display: block;
+            max-width: 80%;
+            max-height: 80%;
+            border-radius: 10px;
+        }
+
+        .image-close {
+            position: absolute;
+            top: 90px;
+            right: 50px;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .image-prev,
+        .image-next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 30px;
+            user-select: none;
+        }
+
+        .image-prev {
+            left: 20px;
+        }
+
+        .image-next {
+            right: 20px;
+        }
+
+        .image-prev:hover,
+        .image-next:hover,
+        .image-close:hover {
+            color: #ccc;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            const closeBtn = document.querySelector('.image-close');
+            const prevBtn = document.querySelector('.image-prev');
+            const nextBtn = document.querySelector('.image-next');
+            const openers = document.querySelectorAll('.openImage');
+
+            let images = [];
+            let currentIndex = 0;
+
+            openers.forEach((item, index) => {
+                images.push(item.getAttribute('data-src'));
+                item.dataset.index = index;
+                item.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    currentIndex = parseInt(this.dataset.index);
+                    showImage();
+                    modal.style.display = 'block';
+                });
+            });
+
+            function showImage() {
+                modalImg.src = images[currentIndex];
+            }
+
+            closeBtn.addEventListener('click', () => modal.style.display = 'none');
+            window.addEventListener('click', e => { if (e.target === modal) modal.style.display = 'none'; });
+
+            prevBtn.addEventListener('click', () => {
+                currentIndex = (currentIndex - 1 + images.length) % images.length;
+                showImage();
+            });
+
+            nextBtn.addEventListener('click', () => {
+                currentIndex = (currentIndex + 1) % images.length;
+                showImage();
+            });
+
+            document.addEventListener('keydown', function (e) {
+                if (modal.style.display === 'block') {
+                    if (e.key === 'ArrowLeft') prevBtn.click();
+                    if (e.key === 'ArrowRight') nextBtn.click();
+                    if (e.key === 'Escape') closeBtn.click();
+                }
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

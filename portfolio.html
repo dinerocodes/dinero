@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Dinero">
+    <meta name="description" content="Dinero">
+    <meta name="author" content="">
+
+    <!-- Title  -->
+    <title>Dinero's Code</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/imgs/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap" rel="stylesheet">
+
+    <!-- Plugins -->
+    <link rel="stylesheet" href="./common/css/plugins.css">
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="./common/css/common_style.css">
+    <link rel="stylesheet" href="./assets/css/inner_pages.css">
+
+</head>
+
+<body>
+
+
+
+    <!-- ==================== Start Loading ==================== -->
+
+     <div class="loader-wrap">
+        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+            <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+        </svg>
+
+        <div class="loader-wrap-heading">
+            <div class="load-text">
+                <span>D</span>
+                <span>I</span>
+                <span>N</span>
+                <span>E</span>
+                <span>R</span> <br>
+                <span>C</span>
+                <span>O</span>
+                <span>D</span>
+                <span>E</span>
+                <span>.</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== End Loading ==================== -->
+
+
+    <div class="cursor"></div>
+
+
+    <!-- ==================== Start progress-scroll-button ==================== -->
+
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <!-- ==================== End progress-scroll-button ==================== -->
+
+
+
+    <!-- ==================== Start Navbar ==================== -->
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container" style="background: none;">
+
+            <!-- Logo -->
+            <a class="logo" href="./index.html">
+                <img src="assets/imgs/d-logo.png" alt="logo" style="width: 7rem; height: 3rem;">
+            </a>
+
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./faqs.html">FAQ's</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="topnav d-flex align-items-center">
+                <a href="./contact.html" class="butn butn-rounded"  style="background: rgb(12, 140, 12);">
+                    <div class="d-flex align-items-center">
+                        <span>Start Project</span>
+                        <span class="icon ml-10">
+                            <img src="./common/imgs/icons/arrow-top-right.svg" alt="">
+                        </span>
+                    </div>
+                </a>
+                <div class="menu-icon cursor-pointer">
+                    <span> <img src="./assets/imgs/menu_bar-removebg-preview.png" style="width: 3rem;" alt=""></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hamenu">
+        <div class="close-menu cursor-pointer ti-clos">
+            <img src="./assets/imgs/close-removebg-preview.png" alt="">
+        </div>
+        <div class="container-fluid rest d-flex">
+            <div class="menu-links">
+                <ul class="main-menu rest">
+                    <li>
+                        <div class="o-hidden">
+                            <div class="link cursor-pointer dmenu"><a href="./index.html"><span class="fill-text" data-text="Home">Home</span></a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="o-hidden">
+                            <div class="link cursor-pointer dmenu"><a href="./services.html"><span class="fill-text"
+                                        data-text="Services">Services</span></a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="o-hidden">
+                            <div class="link cursor-pointer dmenu"><a href="#"><span class="fill-text"
+                                        data-text="Projects">Projects</span></a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="o-hidden">
+                            <div class="link cursor-pointer dmenu"><a href="./faqs.html"><span class="fill-text"
+                                        data-text="FAQ">FAQ</span></a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="o-hidden">
+                            <a href="./contact.html" class="link"><span class="fill-text" data-text="Contact Us">Contact
+                                    Us</span></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="cont-info valign">
+                <div class="text-center full-width">
+                    <div class="logo">
+                        <img src="./assets/imgs/d-logo.png" alt="">
+                    </div>
+                    <div class="item mt-30">
+                        <h5>Lagos State, <br> Nigeria</h5>
+                    </div>
+                    <div class="item mt-10">
+                        <h5><a href="">ewiwilemvictor2001@gmail.com</a></h5>
+                        <h5 class="underline">
+                            <a
+                                href="https://wa.me/2348156671193?text=Hello%2C%20I%20came%20across%20your%20portfolio%20and%20I'm%20interested%20in%20your%20web%20development%20services.">
+                                +234 81 5667 1193
+                            </a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== End Navbar ==================== -->
+
+    <div id="smooth-wrapper">
+
+
+        <div id="smooth-content">
+
+            <main>
+
+
+
+                <!-- ==================== Start Header ==================== -->
+
+                <header class="work-hed">
+                    <div class="container section-padding">
+                        <div class="caption text-center">
+                            <h1>My Works</h1>
+                            <div class="path mt-15">
+                                <span>
+                                    <a href="./index.html">Home</a>
+                                </span>
+                                <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                                <span class="main-color">Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- ==================== End Header ==================== -->
+
+
+
+                <!-- ==================== Start Portfolio ==================== -->
+
+                <div class="works-mp section-padding pt-0">
+                    <div class="container">
+                        <div class="row md-marg gallery">
+                            <div class="col-lg-6 items">
+                                <div class="item">
+                                    <div class="cont d-flex align-items-center">
+                                        <div>
+                                            <h5>CoolAir Pure-comfort</h5>
+                                            <span>Web Development, Front-end Development.</span>
+                                        </div>
+                                        <div class="ml-auto">
+                                            <a href="https://cool-air.netlify.app">
+                                                <i>View Site</i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="img">
+                                        <img src="assets/imgs/works/cool-air.png" alt="">
+                                    </div>
+                                </div>
+                            </div><div class="col-lg-6 items">
+                                <div class="item">
+                                    <div class="cont d-flex align-items-center">
+                                        <div>
+                                            <h5>Restoria</h5>
+                                            <span>ui/ux design, Front-end Development. </span>
+                                        </div>
+                                        <div class="ml-auto">
+                                            <a href="https://restoria.netlify.app/">
+                                                <i>View Site</i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="img">
+                                        <img src="assets/imgs/works/restoria.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 items">
+                                <div class="item">
+                                    <div class="cont d-flex align-items-center">
+                                        <div>
+                                            <h5>Dentaire Health Care</h5>
+                                            <span>Web Development, Front-end Development.</span>
+                                        </div>
+                                        <div class="ml-auto">
+                                            <a href="https://dentaire-care.netlify.app">
+                                                <i>View Site</i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="img">
+                                        <img src="assets/imgs/works/b1.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 items">
+                                <div class="item">
+                                    <div class="cont d-flex align-items-center">
+                                        <div>
+                                            <h5>AI Hack</h5>
+                                            <span>ui/ux design, Front-end Development. </span>
+                                        </div>
+                                        <div class="ml-auto">
+                                            <a href="#">
+                                                <i>View Site</i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="img">
+                                        <img src="assets/imgs/works/ai.png" alt="">
+                                    </div>
+                                </div>
+                            </div><div class="col-lg-6 items">
+                                <div class="item">
+                                    <div class="cont d-flex align-items-center">
+                                        <div>
+                                            <h5>United health Org</h5>
+                                            <span>Development, Front-end & Back-end Development. </span>
+                                        </div>
+                                        <div class="ml-auto">
+                                            <a href="https://unitedhealthorganisation.netlify.app/">
+                                                <i>View Site</i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="img">
+                                        <img src="assets/imgs/works/united-pics .png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 items">
+                                <div class="item">
+                                    <div class="cont d-flex align-items-center">
+                                        <div>
+                                            <h5>Car Rental</h5>
+                                            <span>ui/ux design, Front-end Development. </span>
+                                        </div>
+                                        <div class="ml-auto">
+                                            <a href="https://cardesignsite.netlify.app/">
+                                                <i>View Site</i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="img">
+                                        <img src="assets/imgs/works/car-img.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-6 items">
+                                <div class="item">
+                                    <div class="cont d-flex align-items-center">
+                                        <div>
+                                            <h5>Sylvangel Maritime Ltd</h5>
+                                            <span>ui/ux design, Front & Back-end development.</span>
+                                        </div>
+                                        <div class="ml-auto">
+                                            <a href="https://sylvangelmaritime.com/">
+                                                <i>View Site</i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="img">
+                                        <img src="assets/imgs/works/sm-img.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 items">
+                                <div class="item">
+                                    <div class="cont d-flex align-items-center">
+                                        <div>
+                                            <h5>FOODIE</h5>
+                                            <span>UI/UX-design, Web Development.</span>
+                                        </div>
+                                        <div class="ml-auto">
+                                            <a href="https://foodie-main.netlify.app">
+                                                <i>View Site</i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="img">
+                                        <img src="assets/imgs/works/foodie-img.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 items">
+                                <div class="item">
+                                    <div class="cont d-flex align-items-center">
+                                        <div>
+                                            <h5>GlOWING</h5>
+                                            <span>UI/UX Design, Web Development.</span>
+                                        </div>
+                                        <div class="ml-auto">
+                                            <a href="https://glowingskin-care.netlify.app">
+                                                <i>View Site</i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="img">
+                                        <img src="assets/imgs/works/glowing-img.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 items">
+                                <div class="item">
+                                    <div class="cont d-flex align-items-center">
+                                        <div>
+                                            <h5>Metrobank Org</h5>
+                                            <span>Front & Back-end Web Development</span>
+                                        </div>
+                                        <div class="ml-auto">
+                                            <a href="https://metrovault-bankorg.netlify.app/">
+                                                <i>View Site</i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="img">
+                                        <img src="assets/imgs/works/metrobank-img.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ==================== End Portfolio ==================== -->
+
+
+            </main>
+
+
+            <!-- ==================== Start Footer ==================== -->
+
+             <footer class="footer-sa pb-80">
+                <div class="container section-padding">
+                    <div class="sec-head mb-80">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <a href="#" class="logo md-mb50">
+                                    <img src="./assets/imgs/d-logo.png" alt="" style="width: 12rem; height: 6.4rem;">
+                                </a>
+                            </div>
+                            <div class="col-lg-6">
+                                <h4>We hope to empower user and simplify
+                                    <span class="sub-color inline">their everyday lives.</span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-info">
+                        <div class="row">
+                            <div class="col-lg-6 offset-lg-5">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="item">
+                                            <span class="sub-color">location</span>
+                                            <p>Lagos State, Nigeria</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 d-flex justify-content-end justify-end">
+                                        <div class="item">
+                                            <span class="sub-color">inquiry</span>
+                                            <p>ewiwilemvictor2001@gmail.com</p>
+                                            <p><a href="https://wa.me/2348156671193?text=Hello%2C%20I%20came%20across%20your%20portfolio%20and%20I'm%20interested%20in%20your%20web%20development%20services.">+234 815 667 1193</a></p>
+                                            <p>+234 901 533 6912</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 offset-lg-5">
+                                <div class="social-icon">
+                                    <a href="https://www.linkedin.com/in/ewiwilem-victor-kuwekuzy-02166924b?originalSubdomain=ng">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/dinero_vikky?igsh=MW1pbTJwbnMwdjJ3ZQ%3D%3D&utm_source=qr">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                    </a>
+                                    <a href="https://wa.me/2348156671193?text=Hello%2C%20I%20came%20across%20your%20portfolio%20and%20I'm%20interested%20in%20your%20web%20development%20services.">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                    </a>
+                                    <a href="https://github.com/dinerocodes/">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="copy sub-color md-mb30">
+                                    <p>© 2025 <a>Dinero's Code</a>. All Right Reserved</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-flex justify-content-end">
+                                <div class="links sub-color d-flex justify-content-between">
+                                    <a href="./index.html">Home</a>
+                                    <a href="./services.html">Services</a>
+                                    <a href="#" class="active">Projects</a>
+                                    <a href="./faqs.html">FAQ</a>
+                                    <a href="./contact.html">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <!-- ==================== End Footer ==================== -->
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="./common/js/lib/jquery-3.6.0.min.js"></script>
+    <script src="./common/js/lib/jquery-migrate-3.4.0.min.js"></script>
+
+    <!-- plugins -->
+    <script src="./common/js/lib/plugins.js"></script>
+
+    <!-- GSAP -->
+    <script src="./common/js/gsap_lib/gsap.min.js"></script>
+    <script src="./common/js/gsap_lib/ScrollSmoother.min.js"></script>
+    <script src="./common/js/gsap_lib/ScrollTrigger.min.js"></script>
+    <script src="./common/js/gsap_lib/SplitText.min.js"></script>
+    <script src="./common/js/gsap_lib/matter.js"></script>
+    <script src="./common/js/gsap_lib/throwable.js"></script>
+
+    <!-- common scripts -->
+    <script src="./common/js/common_scripts.js"></script>
+
+    <!-- custom scripts -->
+    <script src="./assets/js/inner_pages.js"></script>
+
+</body>
+
+</html>
